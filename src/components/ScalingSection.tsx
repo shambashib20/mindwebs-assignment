@@ -6,7 +6,7 @@ const ScalingSection = () => {
             <div className="flex justify-center">
                 <div className="px-2  bg-[#09041C] text-white rounded-md  transition flex justify-between"
                     style={{
-                        width: '14rem',
+                        width: '10rem',
                         minHeight: 0,
                         backgroundImage: 'linear-gradient(85deg, rgba(107, 27, 251, .07), rgba(86, 17, 210, .04))',
                         border: '1px solid rgba(112, 112, 112, .45)',

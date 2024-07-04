@@ -5,12 +5,11 @@ const ProductsSection = () => {
     <section className="py-20 text-center">
     <div className="  bg-[#09041C] text-white rounded-md  transition flex justify-between"
                 style={{
-                    width: '14rem',
+                    width: '8rem',
                     minHeight: 0,
                     backgroundImage: 'linear-gradient(85deg, rgba(107, 27, 251, .07), rgba(86, 17, 210, .04))',
                     border: '1px solid rgba(112, 112, 112, .45)',
-                    borderRadius: '9999px',
-                    
+                    borderRadius: '9999px',                    
                     justifyContent: 'center',
                     alignItems: 'center',
                     marginBottom: '0.5rem',

@@ -31,14 +31,14 @@ function FaqSection() {
             >
                 <h1 className="text-[#8b4bff] font-light">F<span className="text-[#b48aff]">A</span>Q</h1>
             </div>
-      <h2 className="md:text-5xl  font-light  mb-4 " style={{ fontFamily: 'Inter, sans-serif' }}>We've got the answers</h2>
+      <h2 className="flex justify-center md:text-5xl w-[100%] font-light mb-10" style={{ fontFamily: 'Inter, sans-serif' }}><span className="text-[#C7C7C7]">We'</span>ve got the answe<span className="text-[#C7C7C7]">rs</span></h2>
       <div className="space-y-4">
         <div>
           <button
-            className="w-full  text-left p-4 rounded-lg hover:bg-black focus:outline-none"
+            className="w-[60%] text-left p-6 rounded-lg hover:bg-black focus:outline-none"
             onClick={() => toggleAccordion(1)}
           >
-            <h4 className="text-xl font-bold text-[#C7C7C7]">Are you GDPR compliant?</h4>
+            <h4 className="text-xl font-normal text-[#C7C7C7]" style={{ fontFamily: 'Inter, sans-serif' }}>Are you GDPR compliant?</h4>
             {activeIndex === 1 && (
             <p className="p-4 text-[#C7C7C7]">Yes, we comply with all relevant regulations and standards.</p>
           )}
@@ -47,10 +47,10 @@ function FaqSection() {
         </div>
         <div>
           <button
-            className="w-full  text-left p-4 rounded-lg hover:bg-black focus:outline-none"
+            className="w-[60%]  text-left p-6 rounded-lg hover:bg-black focus:outline-none"
             onClick={() => toggleAccordion(2)}
           >
-            <h4 className="text-xl font-bold text-[#C7C7C7]">Can I run this on my own cloud provider?</h4>
+            <h4 className="text-xl font-normal text-[#C7C7C7]" style={{ fontFamily: 'Inter, sans-serif' }}>Can I run this on my own cloud provider?</h4>
             {activeIndex === 2 && (
             <p className="p-4 text-[#C7C7C7]">Yes, our platform is cloud-agnostic and supports multiple providers.</p>
           )}
